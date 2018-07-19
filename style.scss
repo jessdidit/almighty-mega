@@ -49,68 +49,51 @@
   
   .spacer-top {margin-top: 2rem;}
 
-  .para {
+  .parallax-section {
     height: 80vh;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     display: flex;
-  }
-  
-  .para .para-box {
-    background-color: #212121;
-    border-radius: 7px;
-    opacity: .85;
-    height: 250px;
-    width: 650px;
-  }
-  
- 
-  
- 
-  
-  .para.og-specs {
+    position:relative;
     background-image: url("../images/placeholder.jpg");
   }
   
-  @media only screen and (max-width: 500px) {
-    .para.og-specs {
-      background-image: url("../images/placeholder.jpg");
-    }
+ 
+  .cta-card { 
+     margin-top: 7vh;
   }
 
-  @media only screen and (max-width: 500px) {
-    .para-box{
-        height: 300px;
-    }
-  }
-  
-  .para.og-specs .specs {
-    margin-left: 10vh;
-    margin-right: auto;
-    margin-top: auto;
-  }
-  
-  .para.og-specs .specs .specs-heading {
-    padding: 10px 0px 0px 0px;
-    font-size: 2rem;
-    margin: 0;
-  }
-  
-
-  .para.og-specs .specs .specs-body {
+  .cta-card p{
     font-size: 1rem;
-    padding: 10px 30px 10px 30px;
-    margin: 0;
-    text-align: left;
     color:white;
   }
-  
-  
-  .box.cta {
-    border-radius: 0;
-    border-left: none;
-    border-right: none;
+
+  .cta-card h2{
+    color: white;
   }
+ 
+ 
+  .is-call-to-action {
+    background-color: #212121;
+    border-radius: 7px;
+    opacity: .85;
+    padding: 30px 30px 30px 30px; 
+  }
+ 
+  
+ 
+  
+
+  @media only screen and (max-width: 500px) {
+    .cta-card{
+        max-width: 100%;
+        margin: auto;
+        display: flex;
+        overflow: hidden;
+    }
+  }
+  
+ 
   
   
