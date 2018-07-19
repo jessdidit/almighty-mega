@@ -55,13 +55,35 @@
   
   .spacer-top {margin-top: 2rem;}
 
- .line{
+ .bottom-line{
   border-bottom: 6px solid orange;
     width: 100px;
    margin-left: auto;
    margin-right: auto;
   
   }
+
+
+  .quote{
+    color: #4a4a4a;
+    font-size: 1.30rem;
+    font-weight: 400;
+    line-height: 1.25;
+  }
+
+  .author{
+    color: orange;
+    font-size: 16px;
+  }
+  
+  .vertical-line{
+    border-left: 6px solid #181845;
+    height: 75px;
+    position: absolute;
+    top: 0;
+  }
+
+
 
   .parallax-section {
     height: 80vh;
@@ -96,7 +118,7 @@
   }
  
   .media-left {
-    background-image: url('http://picsum.photos/350/550');
+    background-image: url('http://picsum.photos/375/500');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -105,7 +127,9 @@
     box-shadow: rgba(14, 25, 80, .3) 0px 5px 20px 0px;
   }
  
-  
+  .gray {
+    background-color: #f7f7f7;
+  }
 
   @media only screen and (max-width: 500px) {
     .cta-card{
