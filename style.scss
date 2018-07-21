@@ -1,11 +1,10 @@
-/* {
-  .columns, .column {
-   outline: 1px solid red;
-  }
+/**
+.columns, .column{
+  outline: 1px solid red;
 }
-*/
+**/
 .hero {
-    background-image: linear-gradient(135deg, #FD6585 10%, #0D25B9 100%);
+    background-image: url("http://picsum.photos/1920/1200/?random");
   }
   
   .hero.is-info a:hover {
@@ -63,7 +62,7 @@
   
   }
 
-
+  
   .quote{
     color: #4a4a4a;
     font-size: 1.30rem;
@@ -92,7 +91,7 @@
     background-position: center;
     display: flex;
     position:relative;
-    background-image: url("../images/placeholder.jpg");
+    background-image: url("http://picsum.photos/1920/1200/?random");
   }
   
  
@@ -118,7 +117,7 @@
   }
  
   .media-left {
-    background-image: url('http://picsum.photos/375/500');
+    background-image: url('http://picsum.photos/375/500/?random');
     background-size: cover;
     background-position: center;
     height: 500px;
@@ -127,6 +126,11 @@
     box-shadow: rgba(14, 25, 80, .3) 0px 5px 20px 0px;
   }
  
+  .tile.box{
+    box-shadow: rgba(14, 25, 80, .3) 0px 5px 20px 0px;
+  }
+
+
   .gray {
     background-color: #f7f7f7;
   }
