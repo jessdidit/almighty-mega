@@ -1,8 +1,7 @@
-/**
-.columns, .column{
+.columns, .column {
   outline: 1px solid red;
 }
-**/
+
 .hero {
   background-image: url("http://picsum.photos/1920/1200/?random");
 }
@@ -51,8 +50,12 @@ p.tag a:hover {
   background-color: #FD6585;
 }
 
-.spacer-top {
+.spacer-is-small {
   margin-top: 2rem;
+}
+
+.spacer-is-large {
+  margin-top: 5rem;
 }
 
 .bottom-line {
@@ -79,6 +82,14 @@ p.tag a:hover {
   height: 75px;
   position: absolute;
   top: 0;
+}
+
+.owl-carousel .item {
+  padding: 20px 20px 20px 20px;
+}
+
+.owl-dot, .owl-dots {
+  display: none;
 }
 
 .parallax-section {
