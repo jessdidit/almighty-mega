@@ -1,8 +1,9 @@
 
+/**
 .columns, .column{
   outline: 1px solid red;
 }
-
+**/
 
 .hero {
     background-image: url("http://picsum.photos/1920/1200/?random");
@@ -33,7 +34,7 @@
 
   .section {
     padding-top: 7rem;
-    padding-bottom: 7.5rem;
+    padding-bottom: 4.5rem;
   }
 
 
@@ -139,10 +140,15 @@
     box-shadow: rgba(14, 25, 80, .3) 0px 5px 20px 0px;
   }
  
-  .tile.box{
+  .tile .column .box{
     box-shadow: rgba(14, 25, 80, .3) 0px 5px 20px 0px;
   }
 
+  .tile .centered {
+    display: flex;
+    justify-content: center
+    
+  }
 
   .gray {
     background-color: #f7f7f7;

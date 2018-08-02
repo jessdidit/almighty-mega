@@ -1,7 +1,8 @@
-.columns, .column {
+/**
+.columns, .column{
   outline: 1px solid red;
 }
-
+**/
 .hero {
   background-image: url("http://picsum.photos/1920/1200/?random");
 }
@@ -31,7 +32,7 @@ a.navbar-link.is-active {
 
 .section {
   padding-top: 7rem;
-  padding-bottom: 7.5rem;
+  padding-bottom: 4.5rem;
 }
 
 h2.title {
@@ -132,8 +133,13 @@ p.tag a:hover {
   box-shadow: rgba(14, 25, 80, 0.3) 0px 5px 20px 0px;
 }
 
-.tile.box {
+.tile .column .box {
   box-shadow: rgba(14, 25, 80, 0.3) 0px 5px 20px 0px;
+}
+
+.tile .centered {
+  display: flex;
+  justify-content: center;
 }
 
 .gray {
